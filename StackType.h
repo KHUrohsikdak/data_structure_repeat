@@ -1,13 +1,8 @@
 #pragma once
-#define ItemType int
+#include"NodeType.h"
 #include<iostream>
 
 using std::cout;
-
-struct NodeType {
-	NodeType* next;
-	ItemType item;
-};
 class StackType {
 private:
 	int MAX_ITEM;
